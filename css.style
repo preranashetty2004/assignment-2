@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#calculator {
+  border: 2px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+}
+
+#display {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 25%;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+button.operator {
+  background-color: #fca311;
+  color: #fff;
+}
+
+button.equals {
+  background-color: #0077cc;
+  color: #fff;
+}
